@@ -39,7 +39,7 @@ def normalize(input_string):
         if i!='':
             result=result+i+' '
     
-    return result.rstrip()
+    return result.rstrip().lstrip()
 
 
 def no_vowels(input_string):
